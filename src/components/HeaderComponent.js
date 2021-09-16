@@ -5,7 +5,7 @@ import {
 } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
-class Header extends React.Component {
+class Header extends Component {
     constructor(props) {
         super(props);
         this.state = {
